@@ -25,6 +25,7 @@ class _CumhuriyetAltinState extends State<CumhuriyetAltin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.white,
         iconTheme: IconThemeData(color: Colors.black),

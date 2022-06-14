@@ -31,6 +31,7 @@ class _AltinHomePageState extends State<AltinHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       drawer: AppDrawer(),
       appBar: AppBar(
         backgroundColor: Colors.white,
