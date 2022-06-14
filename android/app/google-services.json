@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811425695924",
+    "project_id": "mobildovizapp",
+    "storage_bucket": "mobildovizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811425695924:android:37f14bfafefbde6efe2fe1",
+        "android_client_info": {
+          "package_name": "com.example.mobildovizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811425695924-ilrajenic2hp6723vi4sfbt7m77kg213.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwRwB1OExknh3INquOWncJJFd83fds1OU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811425695924-ilrajenic2hp6723vi4sfbt7m77kg213.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
