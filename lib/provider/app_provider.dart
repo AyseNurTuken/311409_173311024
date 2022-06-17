@@ -4,7 +4,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:mobildovizapp/model/currencymodel.dart';
 import 'package:http/http.dart' as http;
-import 'package:provider/provider.dart';
 
 class AppProvider extends ChangeNotifier {
   String? email;
@@ -79,8 +78,8 @@ class AppProvider extends ChangeNotifier {
         }finally{
           isCeyrekAltinLoading = false;
         }
-
       }),
+
       FirebaseFirestore.instance.collection("cumhuriyet").doc(email).get().then((value) {
         try{
           cumhuriyetAltinCount = value["cumhuriyetAdet"].toDouble();
